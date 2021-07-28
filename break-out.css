@@ -1,0 +1,130 @@
+*{margin: 0; padding:0;}
+body{width: 960px; margin: 0 auto;}
+img{border:0;}
+header{
+	width: 960px; height: 20px;
+	padding: 10px;
+	line-height: 20px;
+}
+#title{
+	text-align: center;
+	line-height: 40px;
+}
+#myCanvas{
+	border: 1px dotted gray;
+}
+#preferences_content{
+	display: none;
+}
+.popup{
+	position: fixed;
+	top: 30%;
+	left: 32%;
+	background-color: white;
+	padding: 30px 20px;
+	z-index: 1;
+	width: 400px;
+	height: 200;
+	border: 1px solid black;
+	text-align: center;
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+#page-wrapper{
+	display: none;
+}
+#pre{
+	position: absolute;
+	top: 310px;
+	left: 800px;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+#semifinal{
+	position: absolute;
+	top: 380px;
+	left: 800px;
+	cursor: pointer;
+	margin-bottom: : 10px;
+}
+#final{
+	position: absolute;
+	top: 450px;
+	left: 800px;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+#backgroundimg{
+	position: relative;
+}
+#score{
+	float: left;
+	font-size: 22px;
+	font-weight: bold;
+}
+#school{
+	float: right;
+	padding-right: 20px;
+	cursor: pointer;
+}
+#preferences{
+	float: right;
+	cursor: pointer;
+}
+.winlose{
+	position: fixed;
+	top: 20%;
+	left: 32%;
+	background-color: white;
+	padding: 30px 20px;
+	z-index: 1;
+	width: 400px;
+	height: 200;
+	border: 1px solid black;
+	text-align: center;
+}
+#win{
+	display: none;
+}
+#lose{
+	display: none;
+}
+#finalwin{
+	display: none;
+}
+#team{
+	display: none;
+	margin-left: 90px;
+}
+#person img{
+	margin: auto 50px;
+	cursor: pointer;
+}
+#team img{
+	cursor: pointer;
+}
+#explanation{
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 100px;
+}
+#win img{
+   cursor: pointer;
+}
+#lose img{
+   cursor: pointer;
+}
+#finalwin img{
+   cursor: pointer;
+}
+#win img{
+   cursor: pointer;
+}
+#lose img{
+   cursor: pointer;
+}
+#finalwin img{
+   cursor: pointer;
+}

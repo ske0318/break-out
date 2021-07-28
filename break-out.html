@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>벽돌깨기</title>
+	<link rel="stylesheet" type="text/css" href="break-out.css">
+</head>
+<body>
+	<div id="background">
+		<img id="backgroundimg" src="background.png" width="880">
+		<img id="pre" src="pre.png" height="50">
+		<img id="semifinal" src="semifinal.png" height="49">
+		<img id="final" src="final.png" height="50">
+	</div>
+	<div id="team">
+		<img id="red" src="teamred.png" width="800">
+		<img id="blue" src="teamblue.png" width="800">
+	</div>
+	<div id="page-wrapper">
+		<header>
+			<div id="score">SCORE: </div>
+			<img id="preferences" src="preference.jpg" width="20">
+			<img id="school" src="school.jpg" width="20">
+		</header>
+		<content>
+			<canvas id="myCanvas" width="960" height="500"></canvas>
+			<div id="preferences_content">
+				배경 음악
+				<table border="1">
+					<tr>
+						<td>
+							<input type="radio" name="onoff" value="on" checked="checked">ON
+							<input type="radio" name="onoff" value="off">OFF
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="radio" name="music" value="1" checked="checked">Theme1
+							<input type="radio" name="music" value="2">Theme2
+							<input type="radio" name="music" value="3">Theme3
+						</td>
+					</tr>
+				</table><br>
+				<button id="OK">확인</button>
+			</div>
+			<div id="win">
+				<img id="winpic" src="win.png">
+			</div>
+			<div id="lose">
+				<img id="losepic" src="lose.png">
+			</div>
+			<div id="finalwin">
+				<img id="finalwinpic" src="finalwin.jpg">
+			</div>
+		</content>
+	</div>
+	<embed id="bgm" src="maintheme.wav" autostart="true" loop="true" hidden="true"></embed>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="break-out.js"></script>
+</body>
+
+</html>
